@@ -1,47 +1,51 @@
 @startuml
-title Blackbox Kubernetes Cluster Discovery (Refined View)
+title Blackbox Kubernetes Cluster Discovery (Placeholder)
 
 skinparam linetype ortho
 skinparam shadowing false
 skinparam defaultTextAlignment center
-skinparam componentStyle uml2
-
-actor "player\n(serviceaccount in\nkube-users namespace)" as sa_player
 
 package "spelunk8ing Cluster" {
 
-  [Kubernetes API Server\n:6443] as apiserver
-
-  package "API Groups" {
-    [authorization.k8s.io] as authz
-    [authentication.k8s.io] as authn
-    [rbac.authorization.k8s.io] as rbac
+  package "IP's" {
+    component "damctf ip: 54.214.142.130" as IP1
+    component "ctfstaging ip: 54.214.142.130" as IP2
   }
 
-  note right of apiserver
-    Accessible Non-Resource URLs:
-    • /api, /apis, /version
-    • /healthz, /livez, /readyz
-    • /openapi/*
-    • /.well-known/*
-  end note
+  actor "player" as user_player
 
-  sa_player --> apiserver : JWT Auth
-
-  apiserver --> authz : create\n(SelfSubjectAccessReview,\nSelfSubjectRulesReview)
-  apiserver --> authn : create\n(SelfSubjectReview)
-  apiserver --> rbac : list, get\n(roles,\nrolebindings,\nclusterroles,\nclusterrolebindings)
-  apiserver --> sa_player : list, get\n(serviceaccounts)
+  package "nonResourceURLs" {
+    component "/api"
+    component "/api/*"
+    component "/apis"
+    component "/apis/*"
+    component "/healthz"
+    component "/livez"
+    component "/openapi"
+    component "/openapi/*"
+    component "/readyz"
+    component "/version"
+    component "/version/"
+  }
 
   package "Namespace: kube-users" {
-    component "Pod A1" as podA1
     component "Deployment A" as depA
+    component "Deployment B" as depB
+    component "Pod A1" as podA1
+    component "Pod B1" as podB1
     component "Service A" as svcA
+    component "Service B" as svcB
 
     depA --> podA1 : manages
+    depB --> podB1 : manages
     svcA --> podA1 : routes to
+    svcB --> podB1 : routes to
   }
 
-  apiserver --> podA1 : list, get, exec
+  ' Скрытая стрелка для позиционирования player под IP's
+  IP2 -down[hidden]-> user_player
+
+  user_player --> depA : interacts with
+  user_player --> depB : interacts with
 }
 @enduml
