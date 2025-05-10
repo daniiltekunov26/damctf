@@ -28,6 +28,36 @@ package "spelunk8ing Cluster" {
     component "/version/"
   }
 
+  package "Namespaces" {
+    component "alpha"
+    component "bravo"
+    component "charlie"
+    component "delta"
+    component "echo"
+    component "foxtrot"
+    component "golf"
+    component "hotel"
+    component "india"
+    component "juliet"
+    component "kilo"
+    component "kube-system"
+    component "lima"
+    component "mike"
+    component "November"
+    component "Oscar"
+    component "papa"
+    component "quebec"
+    component "Romeo"
+    component "Sierra"
+    component "tango"
+    component "uniform"
+    component "victor"
+    component "whiskey"
+    component "xray"
+    component "Yankee"
+    component "zulu"
+  }
+
   package "Namespace: kube-users" {
     component "Deployment A" as depA
     component "Deployment B" as depB
