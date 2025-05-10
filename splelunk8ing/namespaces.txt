@@ -1,0 +1,680 @@
+NAMESPACE     NAME                                      READY   STATUS    RESTARTS      AGE
+alpha         alpha                                     1/1     Running   0             26d
+alpha         bravo                                     1/1     Running   1 (55m ago)   26d
+alpha         charlie                                   1/1     Running   0             26d
+alpha         delta                                     1/1     Running   1 (55m ago)   26d
+alpha         echo                                      1/1     Running   1 (55m ago)   26d
+alpha         foxtrot                                   1/1     Running   0             26d
+alpha         golf                                      1/1     Running   0             26d
+alpha         hotel                                     1/1     Running   0             26d
+alpha         india                                     1/1     Running   0             26d
+alpha         juliet                                    1/1     Running   0             26d
+alpha         kilo                                      1/1     Running   0             26d
+alpha         lima                                      1/1     Running   1 (55m ago)   26d
+alpha         mike                                      1/1     Running   1 (55m ago)   26d
+alpha         november                                  1/1     Running   0             26d
+alpha         oscar                                     1/1     Running   0             26d
+alpha         papa                                      1/1     Running   0             26d
+alpha         quebec                                    1/1     Running   0             26d
+alpha         romeo                                     1/1     Running   0             26d
+alpha         sierra                                    1/1     Running   0             26d
+alpha         tango                                     1/1     Running   1 (55m ago)   26d
+alpha         uniform                                   1/1     Running   0             26d
+alpha         victor                                    1/1     Running   0             26d
+alpha         whiskey                                   1/1     Running   0             26d
+alpha         xray                                      1/1     Running   0             26d
+alpha         yankee                                    1/1     Running   0             26d
+alpha         zulu                                      1/1     Running   0             26d
+bravo         alpha                                     1/1     Running   0             26d
+bravo         bravo                                     1/1     Running   0             26d
+bravo         charlie                                   1/1     Running   0             26d
+bravo         delta                                     1/1     Running   1 (55m ago)   26d
+bravo         echo                                      1/1     Running   0             26d
+bravo         foxtrot                                   1/1     Running   1 (55m ago)   26d
+bravo         golf                                      1/1     Running   0             26d
+bravo         hotel                                     1/1     Running   0             26d
+bravo         india                                     1/1     Running   0             26d
+bravo         juliet                                    1/1     Running   0             26d
+bravo         kilo                                      1/1     Running   0             26d
+bravo         lima                                      1/1     Running   0             26d
+bravo         mike                                      1/1     Running   0             26d
+bravo         november                                  1/1     Running   0             26d
+bravo         oscar                                     1/1     Running   0             26d
+bravo         papa                                      1/1     Running   1 (55m ago)   26d
+bravo         quebec                                    1/1     Running   0             26d
+bravo         romeo                                     1/1     Running   0             26d
+bravo         sierra                                    1/1     Running   0             26d
+bravo         tango                                     1/1     Running   0             26d
+bravo         uniform                                   1/1     Running   0             26d
+bravo         victor                                    1/1     Running   0             26d
+bravo         whiskey                                   1/1     Running   0             26d
+bravo         xray                                      1/1     Running   0             26d
+bravo         yankee                                    1/1     Running   0             26d
+bravo         zulu                                      1/1     Running   0             26d
+charlie       alpha                                     1/1     Running   0             26d
+charlie       bravo                                     1/1     Running   1 (55m ago)   26d
+charlie       charlie                                   1/1     Running   1 (55m ago)   26d
+charlie       delta                                     1/1     Running   1 (55m ago)   26d
+charlie       echo                                      1/1     Running   0             26d
+charlie       foxtrot                                   1/1     Running   0             26d
+charlie       golf                                      1/1     Running   1 (55m ago)   26d
+charlie       hotel                                     1/1     Running   1 (55m ago)   26d
+charlie       india                                     1/1     Running   0             26d
+charlie       juliet                                    1/1     Running   0             26d
+charlie       kilo                                      1/1     Running   1 (55m ago)   26d
+charlie       lima                                      1/1     Running   0             26d
+charlie       mike                                      1/1     Running   1 (55m ago)   26d
+charlie       november                                  1/1     Running   0             26d
+charlie       oscar                                     1/1     Running   0             26d
+charlie       papa                                      1/1     Running   1 (55m ago)   26d
+charlie       quebec                                    1/1     Running   0             26d
+charlie       romeo                                     1/1     Running   0             26d
+charlie       sierra                                    1/1     Running   1 (55m ago)   26d
+charlie       tango                                     1/1     Running   1 (55m ago)   26d
+charlie       uniform                                   1/1     Running   1 (55m ago)   26d
+charlie       victor                                    1/1     Running   0             26d
+charlie       whiskey                                   1/1     Running   0             26d
+charlie       xray                                      1/1     Running   0             26d
+charlie       yankee                                    1/1     Running   0             26d
+charlie       zulu                                      1/1     Running   1 (55m ago)   26d
+delta         alpha                                     1/1     Running   0             26d
+delta         bravo                                     1/1     Running   0             26d
+delta         charlie                                   1/1     Running   0             26d
+delta         delta                                     1/1     Running   0             26d
+delta         echo                                      1/1     Running   1 (55m ago)   26d
+delta         foxtrot                                   1/1     Running   0             26d
+delta         golf                                      1/1     Running   0             26d
+delta         hotel                                     1/1     Running   0             26d
+delta         india                                     1/1     Running   0             26d
+delta         juliet                                    1/1     Running   0             26d
+delta         kilo                                      1/1     Running   0             26d
+delta         lima                                      1/1     Running   0             26d
+delta         mike                                      1/1     Running   0             26d
+delta         november                                  1/1     Running   0             26d
+delta         oscar                                     1/1     Running   1 (55m ago)   26d
+delta         papa                                      1/1     Running   1 (55m ago)   26d
+delta         quebec                                    1/1     Running   0             26d
+delta         romeo                                     1/1     Running   0             26d
+delta         sierra                                    1/1     Running   1 (55m ago)   26d
+delta         tango                                     1/1     Running   1 (55m ago)   26d
+delta         uniform                                   1/1     Running   1 (55m ago)   26d
+delta         victor                                    1/1     Running   1             26d
+delta         whiskey                                   1/1     Running   0             26d
+delta         xray                                      1/1     Running   0             26d
+delta         yankee                                    1/1     Running   0             26d
+delta         zulu                                      1/1     Running   0             26d
+echo          alpha                                     1/1     Running   1 (55m ago)   26d
+echo          bravo                                     1/1     Running   1 (55m ago)   26d
+echo          charlie                                   1/1     Running   0             26d
+echo          delta                                     1/1     Running   1 (55m ago)   26d
+echo          echo                                      1/1     Running   0             26d
+echo          foxtrot                                   1/1     Running   0             26d
+echo          golf                                      1/1     Running   0             26d
+echo          hotel                                     1/1     Running   0             26d
+echo          india                                     1/1     Running   0             26d
+echo          juliet                                    1/1     Running   0             26d
+echo          kilo                                      1/1     Running   0             26d
+echo          lima                                      1/1     Running   0             26d
+echo          mike                                      1/1     Running   0             26d
+echo          november                                  1/1     Running   0             26d
+echo          oscar                                     1/1     Running   0             26d
+echo          papa                                      1/1     Running   0             26d
+echo          quebec                                    1/1     Running   1 (55m ago)   26d
+echo          romeo                                     1/1     Running   0             26d
+echo          sierra                                    1/1     Running   0             26d
+echo          tango                                     1/1     Running   0             26d
+echo          uniform                                   1/1     Running   1 (55m ago)   26d
+echo          victor                                    1/1     Running   1 (55m ago)   26d
+echo          whiskey                                   1/1     Running   0             26d
+echo          xray                                      1/1     Running   0             26d
+echo          yankee                                    1/1     Running   1             26d
+echo          zulu                                      1/1     Running   0             26d
+foxtrot       alpha                                     1/1     Running   1 (55m ago)   26d
+foxtrot       bravo                                     1/1     Running   0             26d
+foxtrot       charlie                                   1/1     Running   1 (55m ago)   26d
+foxtrot       delta                                     1/1     Running   1 (55m ago)   26d
+foxtrot       echo                                      1/1     Running   1 (55m ago)   26d
+foxtrot       foxtrot                                   1/1     Running   1 (55m ago)   26d
+foxtrot       golf                                      1/1     Running   1 (55m ago)   26d
+foxtrot       hotel                                     1/1     Running   1             26d
+foxtrot       india                                     1/1     Running   1 (55m ago)   26d
+foxtrot       juliet                                    1/1     Running   0             26d
+foxtrot       kilo                                      1/1     Running   0             26d
+foxtrot       lima                                      1/1     Running   0             26d
+foxtrot       mike                                      1/1     Running   0             26d
+foxtrot       november                                  1/1     Running   1 (55m ago)   26d
+foxtrot       oscar                                     1/1     Running   0             26d
+foxtrot       papa                                      1/1     Running   0             26d
+foxtrot       quebec                                    1/1     Running   0             26d
+foxtrot       romeo                                     1/1     Running   0             26d
+foxtrot       sierra                                    1/1     Running   0             26d
+foxtrot       tango                                     1/1     Running   0             26d
+foxtrot       uniform                                   1/1     Running   0             26d
+foxtrot       victor                                    1/1     Running   1 (55m ago)   26d
+foxtrot       whiskey                                   1/1     Running   1 (55m ago)   26d
+foxtrot       xray                                      1/1     Running   1             26d
+foxtrot       yankee                                    1/1     Running   0             26d
+foxtrot       zulu                                      1/1     Running   0             26d
+golf          alpha                                     1/1     Running   0             26d
+golf          bravo                                     1/1     Running   0             26d
+golf          charlie                                   1/1     Running   0             26d
+golf          delta                                     1/1     Running   0             26d
+golf          echo                                      1/1     Running   1 (55m ago)   26d
+golf          foxtrot                                   1/1     Running   0             26d
+golf          golf                                      1/1     Running   0             26d
+golf          hotel                                     1/1     Running   0             26d
+golf          india                                     1/1     Running   0             26d
+golf          juliet                                    1/1     Running   0             26d
+golf          kilo                                      1/1     Running   0             26d
+golf          lima                                      1/1     Running   0             26d
+golf          mike                                      1/1     Running   0             26d
+golf          november                                  1/1     Running   0             26d
+golf          oscar                                     1/1     Running   0             26d
+golf          papa                                      1/1     Running   0             26d
+golf          quebec                                    1/1     Running   1 (55m ago)   26d
+golf          romeo                                     1/1     Running   1 (55m ago)   26d
+golf          sierra                                    1/1     Running   1 (55m ago)   26d
+golf          tango                                     1/1     Running   0             26d
+golf          uniform                                   1/1     Running   1 (55m ago)   26d
+golf          victor                                    1/1     Running   1 (55m ago)   26d
+golf          whiskey                                   1/1     Running   0             26d
+golf          xray                                      1/1     Running   0             26d
+golf          yankee                                    1/1     Running   0             26d
+golf          zulu                                      1/1     Running   0             26d
+hotel         alpha                                     1/1     Running   0             26d
+hotel         bravo                                     1/1     Running   0             26d
+hotel         charlie                                   1/1     Running   1 (55m ago)   26d
+hotel         delta                                     1/1     Running   1 (55m ago)   26d
+hotel         echo                                      1/1     Running   0             26d
+hotel         foxtrot                                   1/1     Running   1 (55m ago)   26d
+hotel         golf                                      1/1     Running   0             26d
+hotel         hotel                                     1/1     Running   1 (55m ago)   26d
+hotel         india                                     1/1     Running   0             26d
+hotel         juliet                                    1/1     Running   0             26d
+hotel         kilo                                      1/1     Running   1 (55m ago)   26d
+hotel         lima                                      1/1     Running   0             26d
+hotel         mike                                      1/1     Running   0             26d
+hotel         november                                  1/1     Running   0             26d
+hotel         oscar                                     1/1     Running   0             26d
+hotel         papa                                      1/1     Running   0             26d
+hotel         quebec                                    1/1     Running   0             26d
+hotel         romeo                                     1/1     Running   0             26d
+hotel         sierra                                    1/1     Running   1 (55m ago)   26d
+hotel         tango                                     1/1     Running   0             26d
+hotel         uniform                                   1/1     Running   0             26d
+hotel         victor                                    1/1     Running   0             26d
+hotel         whiskey                                   1/1     Running   0             26d
+hotel         xray                                      1/1     Running   0             26d
+hotel         yankee                                    1/1     Running   1 (55m ago)   26d
+hotel         zulu                                      1/1     Running   0             26d
+india         alpha                                     1/1     Running   0             26d
+india         bravo                                     1/1     Running   1 (55m ago)   26d
+india         charlie                                   1/1     Running   0             26d
+india         delta                                     1/1     Running   0             26d
+india         echo                                      1/1     Running   0             26d
+india         foxtrot                                   1/1     Running   1             26d
+india         golf                                      1/1     Running   1 (55m ago)   26d
+india         hotel                                     1/1     Running   0             26d
+india         india                                     1/1     Running   0             26d
+india         juliet                                    1/1     Running   0             26d
+india         kilo                                      1/1     Running   1 (55m ago)   26d
+india         lima                                      1/1     Running   1 (55m ago)   26d
+india         mike                                      1/1     Running   0             26d
+india         november                                  1/1     Running   0             26d
+india         oscar                                     1/1     Running   1 (55m ago)   26d
+india         papa                                      1/1     Running   0             26d
+india         quebec                                    1/1     Running   0             26d
+india         romeo                                     1/1     Running   0             26d
+india         sierra                                    1/1     Running   1 (55m ago)   26d
+india         tango                                     1/1     Running   0             26d
+india         uniform                                   1/1     Running   0             26d
+india         victor                                    1/1     Running   0             26d
+india         whiskey                                   1/1     Running   0             26d
+india         xray                                      1/1     Running   0             26d
+india         yankee                                    1/1     Running   0             26d
+india         zulu                                      1/1     Running   0             26d
+juliet        alpha                                     1/1     Running   1             26d
+juliet        bravo                                     1/1     Running   1 (55m ago)   26d
+juliet        charlie                                   1/1     Running   0             26d
+juliet        delta                                     1/1     Running   0             26d
+juliet        echo                                      1/1     Running   0             26d
+juliet        foxtrot                                   1/1     Running   0             26d
+juliet        golf                                      1/1     Running   0             26d
+juliet        hotel                                     1/1     Running   1 (55m ago)   26d
+juliet        india                                     1/1     Running   0             26d
+juliet        juliet                                    1/1     Running   0             26d
+juliet        kilo                                      1/1     Running   0             26d
+juliet        lima                                      1/1     Running   1 (55m ago)   26d
+juliet        mike                                      1/1     Running   0             26d
+juliet        november                                  1/1     Running   1 (55m ago)   26d
+juliet        oscar                                     1/1     Running   0             26d
+juliet        papa                                      1/1     Running   1 (55m ago)   26d
+juliet        quebec                                    1/1     Running   0             26d
+juliet        romeo                                     1/1     Running   0             26d
+juliet        sierra                                    1/1     Running   1 (55m ago)   26d
+juliet        tango                                     1/1     Running   1 (55m ago)   26d
+juliet        uniform                                   1/1     Running   0             26d
+juliet        victor                                    1/1     Running   0             26d
+juliet        whiskey                                   1/1     Running   1 (55m ago)   26d
+juliet        xray                                      1/1     Running   0             26d
+juliet        yankee                                    1/1     Running   0             26d
+juliet        zulu                                      1/1     Running   1 (55m ago)   26d
+kilo          alpha                                     1/1     Running   0             26d
+kilo          bravo                                     1/1     Running   0             26d
+kilo          charlie                                   1/1     Running   0             26d
+kilo          delta                                     1/1     Running   0             26d
+kilo          echo                                      1/1     Running   0             26d
+kilo          foxtrot                                   1/1     Running   1 (55m ago)   26d
+kilo          golf                                      1/1     Running   0             26d
+kilo          hotel                                     1/1     Running   1 (55m ago)   26d
+kilo          india                                     1/1     Running   0             26d
+kilo          juliet                                    1/1     Running   0             26d
+kilo          kilo                                      1/1     Running   0             26d
+kilo          lima                                      1/1     Running   1 (55m ago)   26d
+kilo          mike                                      1/1     Running   0             26d
+kilo          november                                  1/1     Running   1 (55m ago)   26d
+kilo          oscar                                     1/1     Running   0             26d
+kilo          papa                                      1/1     Running   0             26d
+kilo          quebec                                    1/1     Running   1 (55m ago)   26d
+kilo          romeo                                     1/1     Running   0             26d
+kilo          sierra                                    1/1     Running   0             26d
+kilo          tango                                     1/1     Running   1 (55m ago)   26d
+kilo          uniform                                   1/1     Running   0             26d
+kilo          victor                                    1/1     Running   0             26d
+kilo          whiskey                                   1/1     Running   1             26d
+kilo          xray                                      1/1     Running   0             26d
+kilo          yankee                                    1/1     Running   0             26d
+kilo          zulu                                      1/1     Running   0             26d
+kube-system   coredns-ccb96694c-755l5                   1/1     Running   2 (54m ago)   26d
+kube-system   local-path-provisioner-5cf85fd84d-h6s4x   1/1     Running   3 (54m ago)   26d
+kube-system   metrics-server-5985cbc9d7-zmvc6           1/1     Running   2 (54m ago)   26d
+lima          alpha                                     1/1     Running   0             26d
+lima          bravo                                     1/1     Running   0             26d
+lima          charlie                                   1/1     Running   0             26d
+lima          delta                                     1/1     Running   0             26d
+lima          echo                                      1/1     Running   0             26d
+lima          foxtrot                                   1/1     Running   0             26d
+lima          golf                                      1/1     Running   0             26d
+lima          hotel                                     1/1     Running   0             26d
+lima          india                                     1/1     Running   0             26d
+lima          juliet                                    1/1     Running   0             26d
+lima          kilo                                      1/1     Running   1 (55m ago)   26d
+lima          lima                                      1/1     Running   0             26d
+lima          mike                                      1/1     Running   0             26d
+lima          november                                  1/1     Running   1 (55m ago)   26d
+lima          oscar                                     1/1     Running   0             26d
+lima          papa                                      1/1     Running   0             26d
+lima          quebec                                    1/1     Running   0             26d
+lima          romeo                                     1/1     Running   0             26d
+lima          sierra                                    1/1     Running   0             26d
+lima          tango                                     1/1     Running   0             26d
+lima          uniform                                   1/1     Running   0             26d
+lima          victor                                    1/1     Running   0             26d
+lima          whiskey                                   1/1     Running   0             26d
+lima          xray                                      1/1     Running   1 (55m ago)   26d
+lima          yankee                                    1/1     Running   0             26d
+lima          zulu                                      1/1     Running   0             26d
+mike          alpha                                     1/1     Running   1 (55m ago)   26d
+mike          bravo                                     1/1     Running   1 (55m ago)   26d
+mike          charlie                                   1/1     Running   0             26d
+mike          delta                                     1/1     Running   0             26d
+mike          echo                                      1/1     Running   0             26d
+mike          foxtrot                                   1/1     Running   1 (55m ago)   26d
+mike          golf                                      1/1     Running   0             26d
+mike          hotel                                     1/1     Running   0             26d
+mike          india                                     1/1     Running   0             26d
+mike          juliet                                    1/1     Running   0             26d
+mike          kilo                                      1/1     Running   1             26d
+mike          lima                                      1/1     Running   0             26d
+mike          mike                                      1/1     Running   0             26d
+mike          november                                  1/1     Running   0             26d
+mike          oscar                                     1/1     Running   0             26d
+mike          papa                                      1/1     Running   0             26d
+mike          quebec                                    1/1     Running   0             26d
+mike          romeo                                     1/1     Running   0             26d
+mike          sierra                                    1/1     Running   0             26d
+mike          tango                                     1/1     Running   0             26d
+mike          uniform                                   1/1     Running   1 (55m ago)   26d
+mike          victor                                    1/1     Running   0             26d
+mike          whiskey                                   1/1     Running   0             26d
+mike          xray                                      1/1     Running   0             26d
+mike          yankee                                    1/1     Running   1 (55m ago)   26d
+mike          zulu                                      1/1     Running   0             26d
+november      alpha                                     1/1     Running   0             26d
+november      bravo                                     1/1     Running   1 (55m ago)   26d
+november      charlie                                   1/1     Running   0             26d
+november      delta                                     1/1     Running   0             26d
+november      echo                                      1/1     Running   1 (55m ago)   26d
+november      foxtrot                                   1/1     Running   0             26d
+november      golf                                      1/1     Running   0             26d
+november      hotel                                     1/1     Running   1 (55m ago)   26d
+november      india                                     1/1     Running   1 (55m ago)   26d
+november      juliet                                    1/1     Running   0             26d
+november      kilo                                      1/1     Running   0             26d
+november      lima                                      1/1     Running   1 (55m ago)   26d
+november      mike                                      1/1     Running   0             26d
+november      november                                  1/1     Running   0             26d
+november      oscar                                     1/1     Running   0             26d
+november      papa                                      1/1     Running   0             26d
+november      quebec                                    1/1     Running   0             26d
+november      romeo                                     1/1     Running   0             26d
+november      sierra                                    1/1     Running   1 (55m ago)   26d
+november      tango                                     1/1     Running   0             26d
+november      uniform                                   1/1     Running   0             26d
+november      victor                                    1/1     Running   0             26d
+november      whiskey                                   1/1     Running   1 (55m ago)   26d
+november      xray                                      1/1     Running   1 (55m ago)   26d
+november      yankee                                    1/1     Running   0             26d
+november      zulu                                      1/1     Running   1 (55m ago)   26d
+oscar         alpha                                     1/1     Running   0             26d
+oscar         bravo                                     1/1     Running   0             26d
+oscar         charlie                                   1/1     Running   1 (55m ago)   26d
+oscar         delta                                     1/1     Running   0             26d
+oscar         echo                                      1/1     Running   0             26d
+oscar         foxtrot                                   1/1     Running   0             26d
+oscar         golf                                      1/1     Running   0             26d
+oscar         hotel                                     1/1     Running   1 (55m ago)   26d
+oscar         india                                     1/1     Running   0             26d
+oscar         juliet                                    1/1     Running   0             26d
+oscar         kilo                                      1/1     Running   0             26d
+oscar         lima                                      1/1     Running   0             26d
+oscar         mike                                      1/1     Running   0             26d
+oscar         november                                  1/1     Running   0             26d
+oscar         oscar                                     1/1     Running   0             26d
+oscar         papa                                      1/1     Running   1             26d
+oscar         quebec                                    1/1     Running   0             26d
+oscar         romeo                                     1/1     Running   1 (55m ago)   26d
+oscar         sierra                                    1/1     Running   1 (55m ago)   26d
+oscar         tango                                     1/1     Running   0             26d
+oscar         uniform                                   1/1     Running   0             26d
+oscar         victor                                    1/1     Running   0             26d
+oscar         whiskey                                   1/1     Running   0             26d
+oscar         xray                                      1/1     Running   1 (55m ago)   26d
+oscar         yankee                                    1/1     Running   0             26d
+oscar         zulu                                      1/1     Running   0             26d
+papa          alpha                                     1/1     Running   0             26d
+papa          bravo                                     1/1     Running   0             26d
+papa          charlie                                   1/1     Running   1             26d
+papa          delta                                     1/1     Running   0             26d
+papa          echo                                      1/1     Running   1 (55m ago)   26d
+papa          foxtrot                                   1/1     Running   0             26d
+papa          golf                                      1/1     Running   1 (55m ago)   26d
+papa          hotel                                     1/1     Running   0             26d
+papa          india                                     1/1     Running   0             26d
+papa          juliet                                    1/1     Running   0             26d
+papa          kilo                                      1/1     Running   0             26d
+papa          lima                                      1/1     Running   0             26d
+papa          mike                                      1/1     Running   0             26d
+papa          november                                  1/1     Running   0             26d
+papa          oscar                                     1/1     Running   0             26d
+papa          papa                                      1/1     Running   1 (55m ago)   26d
+papa          quebec                                    1/1     Running   1 (55m ago)   26d
+papa          romeo                                     1/1     Running   0             26d
+papa          sierra                                    1/1     Running   0             26d
+papa          tango                                     1/1     Running   0             26d
+papa          uniform                                   1/1     Running   0             26d
+papa          victor                                    1/1     Running   0             26d
+papa          whiskey                                   1/1     Running   1 (55m ago)   26d
+papa          xray                                      1/1     Running   0             26d
+papa          yankee                                    1/1     Running   0             26d
+papa          zulu                                      1/1     Running   0             26d
+quebec        alpha                                     1/1     Running   0             26d
+quebec        bravo                                     1/1     Running   0             26d
+quebec        charlie                                   1/1     Running   0             26d
+quebec        delta                                     1/1     Running   0             26d
+quebec        echo                                      1/1     Running   0             26d
+quebec        foxtrot                                   1/1     Running   0             26d
+quebec        golf                                      1/1     Running   1 (55m ago)   26d
+quebec        hotel                                     1/1     Running   0             26d
+quebec        india                                     1/1     Running   1 (55m ago)   26d
+quebec        juliet                                    1/1     Running   1 (55m ago)   26d
+quebec        kilo                                      1/1     Running   1 (55m ago)   26d
+quebec        lima                                      1/1     Running   0             26d
+quebec        mike                                      1/1     Running   0             26d
+quebec        november                                  1/1     Running   0             26d
+quebec        oscar                                     1/1     Running   1 (55m ago)   26d
+quebec        papa                                      1/1     Running   1 (55m ago)   26d
+quebec        quebec                                    1/1     Running   0             26d
+quebec        romeo                                     1/1     Running   0             26d
+quebec        sierra                                    1/1     Running   1 (55m ago)   26d
+quebec        tango                                     1/1     Running   1 (55m ago)   26d
+quebec        uniform                                   1/1     Running   0             26d
+quebec        victor                                    1/1     Running   1 (55m ago)   26d
+quebec        whiskey                                   1/1     Running   1 (55m ago)   26d
+quebec        xray                                      1/1     Running   1 (55m ago)   26d
+quebec        yankee                                    1/1     Running   0             26d
+quebec        zulu                                      1/1     Running   0             26d
+romeo         alpha                                     1/1     Running   0             26d
+romeo         bravo                                     1/1     Running   0             26d
+romeo         charlie                                   1/1     Running   1 (55m ago)   26d
+romeo         delta                                     1/1     Running   1 (55m ago)   26d
+romeo         echo                                      1/1     Running   0             26d
+romeo         foxtrot                                   1/1     Running   0             26d
+romeo         golf                                      1/1     Running   1 (55m ago)   26d
+romeo         hotel                                     1/1     Running   0             26d
+romeo         india                                     1/1     Running   0             26d
+romeo         juliet                                    1/1     Running   1             26d
+romeo         kilo                                      1/1     Running   0             26d
+romeo         lima                                      1/1     Running   0             26d
+romeo         mike                                      1/1     Running   1 (55m ago)   26d
+romeo         november                                  1/1     Running   1 (55m ago)   26d
+romeo         oscar                                     1/1     Running   1 (55m ago)   26d
+romeo         papa                                      1/1     Running   0             26d
+romeo         quebec                                    1/1     Running   0             26d
+romeo         romeo                                     1/1     Running   0             26d
+romeo         sierra                                    1/1     Running   0             26d
+romeo         tango                                     1/1     Running   1 (55m ago)   26d
+romeo         uniform                                   1/1     Running   0             26d
+romeo         victor                                    1/1     Running   0             26d
+romeo         whiskey                                   1/1     Running   0             26d
+romeo         xray                                      1/1     Running   0             26d
+romeo         yankee                                    1/1     Running   0             26d
+romeo         zulu                                      1/1     Running   0             26d
+sierra        alpha                                     1/1     Running   1 (55m ago)   26d
+sierra        bravo                                     1/1     Running   0             26d
+sierra        charlie                                   1/1     Running   1 (55m ago)   26d
+sierra        delta                                     1/1     Running   0             26d
+sierra        echo                                      1/1     Running   0             26d
+sierra        foxtrot                                   1/1     Running   0             26d
+sierra        golf                                      1/1     Running   1 (55m ago)   26d
+sierra        hotel                                     1/1     Running   0             26d
+sierra        india                                     1/1     Running   0             26d
+sierra        juliet                                    1/1     Running   0             26d
+sierra        kilo                                      1/1     Running   1 (55m ago)   26d
+sierra        lima                                      1/1     Running   0             26d
+sierra        mike                                      1/1     Running   1 (55m ago)   26d
+sierra        november                                  1/1     Running   1 (55m ago)   26d
+sierra        oscar                                     1/1     Running   0             26d
+sierra        papa                                      1/1     Running   0             26d
+sierra        quebec                                    1/1     Running   1 (55m ago)   26d
+sierra        romeo                                     1/1     Running   0             26d
+sierra        sierra                                    1/1     Running   1 (55m ago)   26d
+sierra        tango                                     1/1     Running   0             26d
+sierra        uniform                                   1/1     Running   0             26d
+sierra        victor                                    1/1     Running   0             26d
+sierra        whiskey                                   1/1     Running   0             26d
+sierra        xray                                      1/1     Running   1 (55m ago)   26d
+sierra        yankee                                    1/1     Running   1 (55m ago)   26d
+sierra        zulu                                      1/1     Running   0             26d
+tango         alpha                                     1/1     Running   1 (55m ago)   26d
+tango         bravo                                     1/1     Running   0             26d
+tango         charlie                                   1/1     Running   1 (55m ago)   26d
+tango         delta                                     1/1     Running   0             26d
+tango         echo                                      1/1     Running   1 (55m ago)   26d
+tango         foxtrot                                   1/1     Running   0             26d
+tango         golf                                      1/1     Running   1 (55m ago)   26d
+tango         hotel                                     1/1     Running   0             26d
+tango         india                                     1/1     Running   1 (55m ago)   26d
+tango         juliet                                    1/1     Running   0             26d
+tango         kilo                                      1/1     Running   0             26d
+tango         lima                                      1/1     Running   1 (55m ago)   26d
+tango         mike                                      1/1     Running   0             26d
+tango         november                                  1/1     Running   1 (55m ago)   26d
+tango         oscar                                     1/1     Running   1 (55m ago)   26d
+tango         papa                                      1/1     Running   0             26d
+tango         quebec                                    1/1     Running   0             26d
+tango         romeo                                     1/1     Running   0             26d
+tango         sierra                                    1/1     Running   1 (55m ago)   26d
+tango         tango                                     1/1     Running   1 (55m ago)   26d
+tango         uniform                                   1/1     Running   0             26d
+tango         victor                                    1/1     Running   1 (55m ago)   26d
+tango         whiskey                                   1/1     Running   0             26d
+tango         xray                                      1/1     Running   0             26d
+tango         yankee                                    1/1     Running   0             26d
+tango         zulu                                      1/1     Running   0             26d
+uniform       alpha                                     1/1     Running   1 (55m ago)   26d
+uniform       bravo                                     1/1     Running   0             26d
+uniform       charlie                                   1/1     Running   0             26d
+uniform       delta                                     1/1     Running   1 (55m ago)   26d
+uniform       echo                                      1/1     Running   0             26d
+uniform       foxtrot                                   1/1     Running   1 (55m ago)   26d
+uniform       golf                                      1/1     Running   1 (55m ago)   26d
+uniform       hotel                                     1/1     Running   1 (55m ago)   26d
+uniform       india                                     1/1     Running   1 (55m ago)   26d
+uniform       juliet                                    1/1     Running   1 (55m ago)   26d
+uniform       kilo                                      1/1     Running   0             26d
+uniform       lima                                      1/1     Running   2 (55m ago)   26d
+uniform       mike                                      1/1     Running   1 (55m ago)   26d
+uniform       november                                  1/1     Running   1             26d
+uniform       oscar                                     1/1     Running   1 (55m ago)   26d
+uniform       papa                                      1/1     Running   1 (55m ago)   26d
+uniform       quebec                                    1/1     Running   1 (55m ago)   26d
+uniform       romeo                                     1/1     Running   0             26d
+uniform       sierra                                    1/1     Running   1 (55m ago)   26d
+uniform       tango                                     1/1     Running   1 (55m ago)   26d
+uniform       uniform                                   1/1     Running   0             26d
+uniform       victor                                    1/1     Running   0             26d
+uniform       whiskey                                   1/1     Running   0             26d
+uniform       xray                                      1/1     Running   0             26d
+uniform       yankee                                    1/1     Running   1 (55m ago)   26d
+uniform       zulu                                      1/1     Running   1 (55m ago)   26d
+victor        alpha                                     1/1     Running   0             26d
+victor        bravo                                     1/1     Running   1 (55m ago)   26d
+victor        charlie                                   1/1     Running   0             26d
+victor        delta                                     1/1     Running   0             26d
+victor        echo                                      1/1     Running   1 (55m ago)   26d
+victor        foxtrot                                   1/1     Running   0             26d
+victor        golf                                      1/1     Running   1 (55m ago)   26d
+victor        hotel                                     1/1     Running   0             26d
+victor        india                                     1/1     Running   0             26d
+victor        juliet                                    1/1     Running   0             26d
+victor        kilo                                      1/1     Running   0             26d
+victor        lima                                      1/1     Running   0             26d
+victor        mike                                      1/1     Running   1 (55m ago)   26d
+victor        november                                  1/1     Running   1 (55m ago)   26d
+victor        oscar                                     1/1     Running   1 (55m ago)   26d
+victor        papa                                      1/1     Running   0             26d
+victor        quebec                                    1/1     Running   1 (55m ago)   26d
+victor        romeo                                     1/1     Running   1 (55m ago)   26d
+victor        sierra                                    1/1     Running   1 (55m ago)   26d
+victor        tango                                     1/1     Running   1 (55m ago)   26d
+victor        uniform                                   1/1     Running   0             26d
+victor        victor                                    1/1     Running   1 (55m ago)   26d
+victor        whiskey                                   1/1     Running   1 (55m ago)   26d
+victor        xray                                      1/1     Running   0             26d
+victor        yankee                                    1/1     Running   1 (55m ago)   26d
+victor        zulu                                      1/1     Running   0             26d
+whiskey       alpha                                     1/1     Running   0             26d
+whiskey       bravo                                     1/1     Running   1 (55m ago)   26d
+whiskey       charlie                                   1/1     Running   0             26d
+whiskey       delta                                     1/1     Running   0             26d
+whiskey       echo                                      1/1     Running   0             26d
+whiskey       foxtrot                                   1/1     Running   0             26d
+whiskey       golf                                      1/1     Running   0             26d
+whiskey       hotel                                     1/1     Running   1 (55m ago)   26d
+whiskey       india                                     1/1     Running   1 (55m ago)   26d
+whiskey       juliet                                    1/1     Running   0             26d
+whiskey       kilo                                      1/1     Running   1 (55m ago)   26d
+whiskey       lima                                      1/1     Running   1 (55m ago)   26d
+whiskey       mike                                      1/1     Running   1 (55m ago)   26d
+whiskey       november                                  1/1     Running   0             26d
+whiskey       oscar                                     1/1     Running   1 (55m ago)   26d
+whiskey       papa                                      1/1     Running   1 (55m ago)   26d
+whiskey       quebec                                    1/1     Running   1 (55m ago)   26d
+whiskey       romeo                                     1/1     Running   1 (55m ago)   26d
+whiskey       sierra                                    1/1     Running   0             26d
+whiskey       tango                                     1/1     Running   0             26d
+whiskey       uniform                                   1/1     Running   0             26d
+whiskey       victor                                    1/1     Running   0             26d
+whiskey       whiskey                                   1/1     Running   0             26d
+whiskey       xray                                      1/1     Running   0             26d
+whiskey       yankee                                    1/1     Running   0             26d
+whiskey       zulu                                      1/1     Running   1 (55m ago)   26d
+xray          alpha                                     1/1     Running   1 (55m ago)   26d
+xray          bravo                                     1/1     Running   0             26d
+xray          charlie                                   1/1     Running   0             26d
+xray          delta                                     1/1     Running   0             26d
+xray          echo                                      1/1     Running   0             26d
+xray          foxtrot                                   1/1     Running   0             26d
+xray          golf                                      1/1     Running   1 (55m ago)   26d
+xray          hotel                                     1/1     Running   1 (55m ago)   26d
+xray          india                                     1/1     Running   0             26d
+xray          juliet                                    1/1     Running   1 (55m ago)   26d
+xray          kilo                                      1/1     Running   0             26d
+xray          lima                                      1/1     Running   0             26d
+xray          mike                                      1/1     Running   0             26d
+xray          november                                  1/1     Running   0             26d
+xray          oscar                                     1/1     Running   0             26d
+xray          papa                                      1/1     Running   1 (55m ago)   26d
+xray          quebec                                    1/1     Running   0             26d
+xray          romeo                                     1/1     Running   1 (55m ago)   26d
+xray          sierra                                    1/1     Running   1 (55m ago)   26d
+xray          tango                                     1/1     Running   1 (55m ago)   26d
+xray          uniform                                   1/1     Running   0             26d
+xray          victor                                    1/1     Running   0             26d
+xray          whiskey                                   1/1     Running   0             26d
+xray          xray                                      1/1     Running   0             26d
+xray          yankee                                    1/1     Running   0             26d
+xray          zulu                                      1/1     Running   0             26d
+yankee        alpha                                     1/1     Running   0             26d
+yankee        bravo                                     1/1     Running   0             26d
+yankee        charlie                                   1/1     Running   0             26d
+yankee        delta                                     1/1     Running   0             26d
+yankee        echo                                      1/1     Running   0             26d
+yankee        foxtrot                                   1/1     Running   0             26d
+yankee        golf                                      1/1     Running   0             26d
+yankee        hotel                                     1/1     Running   1 (55m ago)   26d
+yankee        india                                     1/1     Running   1 (55m ago)   26d
+yankee        juliet                                    1/1     Running   1 (55m ago)   26d
+yankee        kilo                                      1/1     Running   0             26d
+yankee        lima                                      1/1     Running   0             26d
+yankee        mike                                      1/1     Running   1 (55m ago)   26d
+yankee        november                                  1/1     Running   0             26d
+yankee        oscar                                     1/1     Running   0             26d
+yankee        papa                                      1/1     Running   0             26d
+yankee        quebec                                    1/1     Running   0             26d
+yankee        romeo                                     1/1     Running   1 (55m ago)   26d
+yankee        sierra                                    1/1     Running   0             26d
+yankee        tango                                     1/1     Running   0             26d
+yankee        uniform                                   1/1     Running   1 (55m ago)   26d
+yankee        victor                                    1/1     Running   0             26d
+yankee        whiskey                                   1/1     Running   0             26d
+yankee        xray                                      1/1     Running   0             26d
+yankee        yankee                                    1/1     Running   1 (55m ago)   26d
+yankee        zulu                                      1/1     Running   0             26d
+zulu          alpha                                     1/1     Running   0             26d
+zulu          bravo                                     1/1     Running   0             26d
+zulu          charlie                                   1/1     Running   0             26d
+zulu          delta                                     1/1     Running   0             26d
+zulu          echo                                      1/1     Running   0             26d
+zulu          foxtrot                                   1/1     Running   0             26d
+zulu          golf                                      1/1     Running   1 (55m ago)   26d
+zulu          hotel                                     1/1     Running   0             26d
+zulu          india                                     1/1     Running   1 (55m ago)   26d
+zulu          juliet                                    1/1     Running   0             26d
+zulu          kilo                                      1/1     Running   0             26d
+zulu          lima                                      1/1     Running   0             26d
+zulu          mike                                      1/1     Running   0             26d
+zulu          november                                  1/1     Running   0             26d
+zulu          oscar                                     1/1     Running   1 (55m ago)   26d
+zulu          papa                                      1/1     Running   0             26d
+zulu          quebec                                    1/1     Running   0             26d
+zulu          romeo                                     1/1     Running   1 (55m ago)   26d
+zulu          sierra                                    1/1     Running   0             26d
+zulu          tango                                     1/1     Running   1 (55m ago)   26d
+zulu          uniform                                   1/1     Running   0             26d
+zulu          victor                                    1/1     Running   1 (55m ago)   26d
+zulu          whiskey                                   1/1     Running   0             26d
+zulu          xray                                      1/1     Running   0             26d
+zulu          yankee                                    1/1     Running   0             26d
+zulu          zulu 
