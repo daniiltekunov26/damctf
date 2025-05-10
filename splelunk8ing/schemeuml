@@ -1,0 +1,47 @@
+@startuml
+title Blackbox Kubernetes Cluster Discovery (Refined View)
+
+skinparam linetype ortho
+skinparam shadowing false
+skinparam defaultTextAlignment center
+skinparam componentStyle uml2
+
+actor "player\n(serviceaccount in\nkube-users namespace)" as sa_player
+
+package "spelunk8ing Cluster" {
+
+  [Kubernetes API Server\n:6443] as apiserver
+
+  package "API Groups" {
+    [authorization.k8s.io] as authz
+    [authentication.k8s.io] as authn
+    [rbac.authorization.k8s.io] as rbac
+  }
+
+  note right of apiserver
+    Accessible Non-Resource URLs:
+    • /api, /apis, /version
+    • /healthz, /livez, /readyz
+    • /openapi/*
+    • /.well-known/*
+  end note
+
+  sa_player --> apiserver : JWT Auth
+
+  apiserver --> authz : create\n(SelfSubjectAccessReview,\nSelfSubjectRulesReview)
+  apiserver --> authn : create\n(SelfSubjectReview)
+  apiserver --> rbac : list, get\n(roles,\nrolebindings,\nclusterroles,\nclusterrolebindings)
+  apiserver --> sa_player : list, get\n(serviceaccounts)
+
+  package "Namespace: kube-users" {
+    component "Pod A1" as podA1
+    component "Deployment A" as depA
+    component "Service A" as svcA
+
+    depA --> podA1 : manages
+    svcA --> podA1 : routes to
+  }
+
+  apiserver --> podA1 : list, get, exec
+}
+@enduml
