@@ -1,19 +1,38 @@
 #!/usr/bin/env sh
-set -e
+# scan-namespaces.sh — macOS-compatible
 
-# 1. Extract unique namespaces from pods.txt (skip header)
+# 1. Grab unique namespaces
 NS=$(tail -n +2 pods.txt \
      | awk '{ print $1 }' \
-     | sort -u \
-     | paste -sd "," -)
+     | sort -u)
 
-echo "Scanning namespaces: $NS"
+# 2. Prepare / reset report
+REPORT=unified_report.txt
+echo "## Trivy Kubernetes Scan Report" > "$REPORT"
+echo "Started: $(date '+%Y-%m-%dT%H:%M:%S%z')" >> "$REPORT"
+echo >> "$REPORT"
 
-# 2. Run Trivy cluster scan, scoped to those namespaces, dumping full report
-trivy k8s \
-  --kubeconfig ./player.kubeconfig \
-  --include-namespaces "$NS" \
-  --report all \
-  > unified_report.txt
+# 3. Disable exit-on-error so we can handle failures per-namespace
+set +e
 
-echo "✔ unified_report.txt generated."
+for ns in $NS; do
+  echo "=== Namespace: $ns ===" | tee -a "$REPORT"
+  trivy k8s \
+    --kubeconfig ./player.kubeconfig \
+    --include-namespaces "$ns" \
+    --disable-node-collector \
+    --timeout 60m \
+    --report all \
+    >> "$REPORT" 2>&1
+
+  if [ $? -ne 0 ]; then
+    echo "⚠ Warning: scan for namespace '$ns' failed or hit an internal error." | tee -a "$REPORT"
+  else
+    echo "✔ Completed namespace: $ns" | tee -a "$REPORT"
+  fi
+
+  echo >> "$REPORT"
+done
+
+echo "Finished: $(date '+%Y-%m-%dT%H:%M:%S%z')" >> "$REPORT"
+echo "All done. See $REPORT"
